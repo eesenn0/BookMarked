@@ -6,4 +6,8 @@ import org.springframework.stereotype.Controller;
 public class QuoteController {
     
     private final QuoteService quoteService;
+
+    public QuoteController(QuoteService quoteService) {
+        this.quoteService = quoteService;
+    }
 }
