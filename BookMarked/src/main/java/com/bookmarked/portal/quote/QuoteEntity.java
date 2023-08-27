@@ -1,4 +1,4 @@
-package com.bookmarked.portal;
+package com.bookmarked.portal.quote;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
